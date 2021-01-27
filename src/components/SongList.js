@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
 
-class songList extends Component {
+class SongList extends Component {
     render () {
         return <div>SongList</div>;
     }
 }
 
-export default songList;
+export default connect()(SongList);
